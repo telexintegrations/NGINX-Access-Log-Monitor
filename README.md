@@ -5,7 +5,7 @@ A Node.js integration that monitors Nginx access logs on a remote VPS via SSH, p
 ## Features
 
 - Fetches the last 100 lines of an Nginx access log via SSH.
-- Parses logs and sends them to a Telegram channel.
+- Parses logs and sends them to a Telex channel.
 - Runs continuously on a cron-based interval (e.g., every 2 minutes).
 - Provides a `/stop` endpoint to halt monitoring for a specific channel.
 - Supports multiple users with unique `channel_ids`.
